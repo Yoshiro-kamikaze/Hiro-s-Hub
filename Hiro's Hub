@@ -3,14 +3,14 @@
 local scriptToExecute = [[
     task.spawn(function()
         task.wait(10) -- delay after teleport
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Yoshiro-kamikaze/Hiro-s-Hub/refs/heads/main/main"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Yoshiro-kamikaze/Hiro-s-Hub/refs/heads/main/Hiro's%20Hub"))()
     end)
 ]]
 
 -- Run instantly AFTER 5 seconds
 task.spawn(function()
     task.wait(10)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yoshiro-kamikaze/Hiro-s-Hub/refs/heads/main/main"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yoshiro-kamikaze/Hiro-s-Hub/refs/heads/main/Hiro's%20Hub"))()
 end)
 
 -- Queue for teleport (also delayed)
